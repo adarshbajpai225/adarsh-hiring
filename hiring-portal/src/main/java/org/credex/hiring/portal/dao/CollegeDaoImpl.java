@@ -61,6 +61,7 @@ public class CollegeDaoImpl implements CollegeDao {
 
 
     @Override
+
     @Transactional
     public List<Colleges> getAllCollege() {
         Session session = sessionFactory.getCurrentSession();
